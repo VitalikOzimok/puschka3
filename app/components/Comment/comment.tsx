@@ -1,3 +1,4 @@
+import Image from "next/image";
 type Props = {
   name: string;
   description?: string;
@@ -16,7 +17,7 @@ const Class = ({ name, description, image }: Props) => {
         <p className="text-2xl">{name}</p>
         <p className="mt-5">{description}</p>
       </div>
-      <img alt={`${image}`} src={image} className="rounded-xl" />
+      <Image alt={`${image}`} src={image} className="rounded-xl"></Image>
     </li>
   );
 };
