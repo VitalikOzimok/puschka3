@@ -4,11 +4,7 @@ import { sanityFetch, SanityLive } from "@/sanity/lib/live";
 import Card from "@/app/components/Card";
 import { SlidersHorizontal } from "lucide-react";
 
-export default async function page({
-  searchParams,
-}: {
-  searchParams: Promise<{ query?: string }>;
-}) {
+export default async function page() {
   const query = (await searchParams).query;
   const params = { search: query || null };
   const { data: posts } = await sanityFetch({ query: STURTUP_QUERY, params });
@@ -121,9 +117,7 @@ export default async function page({
 
           <ul className="mt-7 grid  grid-cols-4 max-xl:grid-cols-3 max-md:grid-cols-2 gap-5">
             {posts?.length > 0 ? (
-              posts.map((post: StartupTypeCard) => (
-                <Card key={post?._id} post={post} />
-              ))
+              posts.map((post) => <Card key={post?._id} post={post} />)
             ) : (
               <p className="no-results">No sturtup found</p>
             )}
