@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 
-const elem = () => {
+const Elem = () => {
   const [chose, setChose] = useState<1 | 2 | 3>(2);
 
   return (
@@ -41,4 +41,4 @@ const elem = () => {
   );
 };
 
-export default elem;
+export default Elem;

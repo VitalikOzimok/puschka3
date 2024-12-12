@@ -2,8 +2,7 @@
 import React from "react";
 import Boy from "../../public/boy.jpg";
 import Image from "next/image";
-import Group_1 from "../assets/Group (1).png";
-import Group_2 from "../assets/Group (2).png";
+
 import Gucci from "../assets/gucci-logo-1 1.png";
 import Vector_1 from "../assets/Vector (1).png";
 import Vector from "../assets/Vector.png";
@@ -14,9 +13,7 @@ import Men_2 from "../../public/image 13.png";
 import Women from "../../public/women.jpg";
 import Kach from "../../public/kach.jpg";
 import Comment from "../components/Comment/index";
-import { Mail } from "lucide-react";
-import Form from "next/form";
-import Footer from "../components/footer";
+
 import Victor from "../assets/Victor.png";
 
 const page = () => {
