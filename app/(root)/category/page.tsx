@@ -4,7 +4,11 @@ import { sanityFetch, SanityLive } from "@/sanity/lib/live";
 import Card from "@/app/components/Card";
 import { SlidersHorizontal } from "lucide-react";
 
-export default async function page() {
+export default async function page({
+  searchParams,
+}: {
+  searchParams: Promise<{ query?: string }>;
+}) {
   const query = (await searchParams).query;
   const params = { search: query || null };
   const { data: posts } = await sanityFetch({ query: STURTUP_QUERY, params });
