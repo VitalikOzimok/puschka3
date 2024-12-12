@@ -33,7 +33,7 @@ const page = () => {
       old_price: 23550,
       discount: 80,
       image:
-        "https://sun9-55.userapi.com/impg/s_hXlcs6u-G3HnO8ZXG3r3ozyveYlnSkcWE2Ag/tsa09zSicUo.jpg?size=864x1920&quality=95&sign=0ff47d951877533e00bcfed382cad084&type=album",
+        "https://sun9-37.userapi.com/impg/tmxHFJUumm7O9VplJ_GCwRNSUZC_O1a4Rv9AZA/M7sbhL6ALc4.jpg?size=675x900&quality=95&sign=bc891f535f38532737a6e77e68792539&type=album",
 
       title: "We Robots",
     },
@@ -43,7 +43,7 @@ const page = () => {
       old_price: 63250,
       discount: 20,
       image:
-        "https://sun9-16.userapi.com/impg/pOhWy5cIYFgnYswMUeyIiAxtAFNaUSUs-oyaAA/nKJJ8eEIANo.jpg?size=972x1402&quality=95&sign=6c6dec44928e73da41abfd3f01541858&type=album",
+        "https://sun9-11.userapi.com/impg/qc-RvtwlqJiO3BW18RaZxACXP_xeRBxAPw2eHw/2cKky79zpcg.jpg?size=563x752&quality=95&sign=63acdbdad73ad6c2546401bcceae24d6&type=album",
 
       title: "We Robots",
     },
@@ -53,7 +53,7 @@ const page = () => {
       old_price: 2270,
       discount: 90,
       image:
-        "https://sun9-53.userapi.com/impg/x5pDwDjwzGScCG1z-NrfhztT4CkjwlXAtYjhUw/SEo94qx0Hw8.jpg?size=486x1080&quality=95&sign=3276500274b1e1b9cf0c42a170d47aad&type=album",
+        "https://sun9-10.userapi.com/impg/UoyohpkxJ9u3PcBaiwD9DNAcgIZuzvUQmOor2g/rq3WmJ5d3Zc.jpg?size=673x640&quality=95&sign=c1498d76265cc70e8a250150b19d990f&type=album",
 
       title: "We Robots",
     },

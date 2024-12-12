@@ -1,8 +1,9 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { Startup } from "@/sanity/type";
 
-const Card = ({ post }: { post }) => {
+const Card = ({ post }) => {
   const { old_price, title, price, _id, image } = post;
   return (
     <Link href={`/products/${_id}`}>
